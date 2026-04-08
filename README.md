@@ -102,3 +102,10 @@ npm run build
 - Graph API throttles personal accounts to ~4 deletes/sec. For 500 emails that's ~2 mins.
 - Token is cached in `.token_cache.json` — don't commit this file.
 - `.token_cache.json` is gitignored automatically if you init a git repo.
+ 
+ ### In action
+ 
+ <video src="removal.mov" controls="controls" width="100%" autoplay loop title="Promo Cleaner Demo">
+   <a href="removal.mov">Click here to view the video</a>
+ </video>
+
