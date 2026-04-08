@@ -1,0 +1,23 @@
+{
+  "name": "outlook-cleaner",
+  "version": "1.0.0",
+  "description": "Bulk delete promotional emails from Outlook via Microsoft Graph API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dry-run": "tsc && node dist/index.js",
+    "delete": "tsc && node dist/index.js --confirm"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.6.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "node-fetch": "^2.7.0",
+    "open": "^8.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.4.0"
+  }
+}
