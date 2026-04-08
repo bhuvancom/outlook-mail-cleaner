@@ -105,7 +105,7 @@ npm run build
  
  ### In action
  
- <video src="removal.mov" controls="controls" width="100%" autoplay loop title="Promo Cleaner Demo">
-   <a href="removal.mov">Click here to view the video</a>
- </video>
+ <video src="./removal.mov" width="100%" controls></video>
+ 
+ [Click here to view the demo video if the player above doesn't load.](./removal.mov)
 
