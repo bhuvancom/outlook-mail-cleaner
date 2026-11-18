@@ -7,7 +7,8 @@
     "build": "tsc",
     "start": "tsc && node dist/index.js",
     "dry-run": "tsc && node dist/index.js",
-    "delete": "tsc && node dist/index.js --confirm"
+    "delete": "tsc && node dist/index.js --confirm",
+    "hard-delete": "tsc && node dist/index.js --confirm --hard-delete"
   },
   "dependencies": {
     "@azure/msal-node": "^2.6.0",
